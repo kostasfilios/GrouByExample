@@ -1,7 +1,7 @@
 # GrouByExample
 This is an example of my extension for grouping elements by a given key. 
 
-Many times we need to group items over an array of object. With this extension you can achieve it at single line. 
+Many times we need to group items with same characteristic over an array of object. With this extension you can achieve it at single line. 
 
 ```
 func groupBy<T>(_ key: (Element) -> T) -> [T : [Element]] {
